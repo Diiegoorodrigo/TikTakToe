@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
 
     <div class="container">
+
+        <h1>TIC-TAC-TOE</h1>
+
         <div class="players">
             <label for="p1">Player 1</label>
             <input type="text" name="p1" class="p1">
@@ -18,35 +21,46 @@
             <button class="start">Começar</button>
         </div>
         <div class="game">
-            <div class="square one">
+            <div id="0" class="square ">
 
             </div>
-            <div class="square two">
+            <div id="1" class="square ">
                 
             </div>
-            <div class="square three">
+            <div id="2" class="square ">
                 
             </div>
-            <div class="square four">
+            <div id="3" class="square">
                 
             </div>
-            <div class="square five">
+            <div id="4" class="square">
                 
             </div>
-            <div class="square six">
+            <div id="5" class="square">
                 
             </div>
-            <div class="square seven">
+            <div id="6" class="square ">
                 
             </div>
-            <div class="square eight">
+            <div id="7" class="square ">
                 
             </div>
-            <div class="square nine">
+            <div id="8" class="square">
                 
             </div>
         </div>
+        <div class="playerTime">
+            
+        </div>
+        <div class="buttons">
+            <button  onclick='reset()'class="reset">Resetart</button>
+            <button onclick='back()' class="back">Voltar</button>
+        </div>
     </div>
+
+    <script src="/assets/script/game.js"></script>
+    <script src="assets/script/interface.js"></script>
+    
     
 </body>
 </html>
