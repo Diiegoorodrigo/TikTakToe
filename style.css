@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1200px;
+    border: 1px solid black;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.players
+{
+    background-color: rgb(235, 192, 192);
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    display: none;
+
+}
+
+.players input
+{
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.start
+{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; 
+}
+
+.game
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.square
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+    display: block;
+}
