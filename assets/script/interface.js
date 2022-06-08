@@ -29,7 +29,7 @@ function checkPlayers(){
     let playerContent = document.querySelector('.players')
     let gameContent = document.querySelector('.game')
     let buttons = document.querySelector('.buttons')
-    
+    let play =  document.querySelector('.playerTime')
 
 
     if(!playerOne.value) return alert('insira o nome do player um')
